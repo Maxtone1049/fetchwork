@@ -5,6 +5,9 @@ import React, { useEffect, useState } from 'react';
 import Card from './components/Card';
 const DoneStyle= styled.div `
 padding:3em;
+h2{
+  text-align:center;
+}
 
 `
 function App() {
@@ -27,6 +30,7 @@ function App() {
   
   return (
     <DoneStyle>
+      <h2>Post from Placeholder</h2>
   <Card results= {results}/>
     </DoneStyle>
   );

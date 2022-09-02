@@ -22,6 +22,7 @@ p{
 const Card = ({results}) => {
   return (
     <CardContainer>
+      
         {
             results && results.map(result =>(
         <CardBox>
